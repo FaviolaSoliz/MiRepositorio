@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <script>
+
+        // ARREGLOS
+
+        // Estructura de datos(conjunto de datos) de 
+         var vector=[1,3.14,'Hola',true,[1,2]];
+
+         var Dias = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes']
+
+        
+        console.log(Dias);
+
+        document.write('<br>'+Dias[5]);
+
+        Dias[6]='Sabado';
+
+        //document.write('<br>'+Dias);
+
+        Dias[6]='Sábado';
+
+        document.write(Dias);
+
+        //Funciones Arreglos
+
+        var tam = Dias.length;
+
+
+
+        // POP PUSH
+
+        Dias.pop();
+        Dias.pop();
+        document.write('<br>'+ 'Tamaño: '+tam);
+
+        document.write('<br>'+ Dias);
+
+        Dias.push('VIERNES');
+        Dias.push('SABADO');
+
+        document.write('<br>'+ Dias);
+
+
+        var num1 = [1,8,3,8,9,4,6];
+        var num2 = ['4','5','6'];
+        var num3 = num1.concat(num2);
+
+
+        document.write('<br>'+ num3);
+        console.log(num3);
+
+        // Sort , Reverse
+
+        document.write('<br>'+ num1);
+        num1.sort();
+        document.write('<br>'+ num1);
+
+        num1.reverse();
+        document.write('<br>'+ num1);
+
+
+    </script>
+
+    <style>
+        body{
+            background: #85b6e7;
+            font-size:40px;
+        }
+    </style>
+
+</body>
+</html>

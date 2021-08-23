@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionale y ciclos</title>
+</head>
+<body>
+
+    <script>
+
+        // Condicional if
+
+        var edad = 15;
+
+        if(edad>=18)
+
+            { document.write('Es mayor de Edad')}
+
+        else
+
+            { document.write('Es menor de Edad'+'<hr>')}
+
+
+        var pais = 'Peru';
+
+        if(pais =='Bolivia')
+            { document.write('Eres Boliviano')}
+        else 
+            if(pais =='Brazil')
+                { document.write('Eres Brasilero')}
+            else
+
+                { document.write('Nose de donde eres')} 
+
+
+
+                document.write('<br>')
+        // Switch 
+
+        switch (pais)
+        {
+            case 'Bolivia':
+
+                document.write('Eres Boliviano');
+                break;
+            
+            case 'Brazil':
+
+                document.write('Eres Brasilero')
+                break;
+
+            case 'Peru':
+
+                document.write('Eres Peruano')
+                break;
+
+            default:
+            document.write('Nose de donde eres');
+
+        }
+
+        // Ciclos for , while
+
+        for(var i=0 ; i<=10; i++)
+        {
+            document.write('<br>'+i);
+        }
+
+        document.write('<hr>');
+
+        var c=0;
+            while(c<=10)
+
+            {document.write('<br>'+c);
+             c +=3;
+            }
+
+     document.write('<hr>');
+
+     var Notas=[38,96,51,45,89,12,32,87,96,0,25,98]
+
+     document.write(Notas + '<br>');
+    document.write(Notas[0]+ '<br>');
+
+     // Promedio general
+
+     // Cuantos Aprobados y reprobados hay
+
+      var total = 0;
+
+      var tam = Notas.length;
+
+      var apro =0 , rep=0;
+      
+      for(var i=0; i<tam;  i++)
+
+            {
+                total = total + Notas[i];
+
+                if(Notas[i]>=51)
+
+                    apro ++;
+                else
+
+                    rep = rep +1;
+
+            }
+    
+    var promedio = total/tam;
+
+    document.write(Notas + '<br>');
+
+    document.write('El promedio es; '+ promedio + '<br>');
+
+    document.write('Aprobados: '+apro + '<br>');
+
+    document.write('Reprobados: '+rep+ '<br>');
+    
+
+
+
+
+
+        //
+                
+
+
+
+    </script>
+   
+    <style>
+        body{
+            background: #85b6e7;
+            font-size:40px;
+        }
+    </style>
+</body>
+</html>
