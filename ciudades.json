@@ -1,0 +1,31 @@
+{
+    "towns": [
+      {
+        "name": "Cochamba",
+        "photo": "cocha1.jpg",
+        "motto": "Ciudad Jardin",
+        "yearFounded": 1810,
+        "currentPopulation": 1136066,
+        "averageRainfall": 15.75,
+        "events": [
+          "15 de Febrero:Corso de Corsos",
+          "15 de Agosto:Urkupiña",
+          "14 de Septiembre:Aniversario de Cochabamba"
+        ]
+      },
+     
+      {
+        "name": "Preston",
+        "photo": "preston.jpg",
+        "motto": "Home of Napoleon Dynamite.",
+        "yearFounded": 1866,
+        "currentPopulation": 5204,
+        "averageRainfall": 16.65,
+        "events": [
+          "March 29: Work Creek Revival",
+          "July 8-12: Napoleon Dynamite Festival",
+          "November 2-4: Freedom Days"
+        ]
+      }
+    ]
+  }

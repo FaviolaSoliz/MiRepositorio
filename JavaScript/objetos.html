@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+</head>
+<body>
+    <h1>Objetos en JavaScript</h1>
+
+
+    <script>
+
+/*
+    var numero= 12;
+    var arreglo =[12,97,95,3,65];
+
+    var nombre='Fabiola';
+    var apellido = 'Soliz';
+    var pais = 'Bolivia';
+    var telefono = '42641552';
+
+    var nombre1='Fabiola';
+    var apellido1 = 'Solicgvhbjnz';
+    var pais1 = 'Bolivia';
+    var telefono1 = '42641552';
+*/
+    // Clase abstraccion de un objeto del mundo real
+    // Atributos -> Caracteristica
+    // Metodos  -> Funciones
+
+    /*var Fabiola = {
+
+        nombre : 'Fabiola',
+        apellido : 'Soliz',
+        pais : 'Bolivia',
+        bio:function()
+        {
+            document.write('Nombre: '+this.nombre +'<br>');
+            document.write('Apellido: '+this.apellido +'<br>');
+            document.write('Pais: '+this.pais+'<br>');
+        }
+    };
+
+    Fabiola.bio();
+
+    var Juan = {
+
+    nombre : 'Juan',
+    apellido : 'Perez',
+    pais : 'Chile',
+    bio:function()
+    {
+        document.write('Nombre: '+this.nombre +'<br>');
+        document.write('Apellido: '+this.apellido +'<br>');
+        document.write('Pais: '+this.pais+'<br>');
+    }
+};
+  Juan.bio();
+
+*/
+// Clase
+  var Persona =
+    {
+        nombre:'',
+        apellido: '',
+        pais:'',
+        edad: 0,
+
+
+        Persona: function (no,ap,pa,ed)
+        {
+   
+            this.nombre=no;
+            this.apellido = ap;
+            this.pais = pa;
+            this.edad = ed;
+        },
+
+       /* Per:function(no,ap,pa,ed)
+        {
+            this.nombre=no;
+            this.apellido = ap;
+            this.pais = pa;
+            this.edad = ed;
+        },*/
+        Biografia:function()
+        {
+            document.write('Nombre: '+this.nombre +'<br>');
+            document.write('Apellido: '+this.apellido +'<br>');
+            document.write('Pais: '+this.pais+'<br>');
+            document.write('Edad: '+this.edad+'<br>');
+        } 
+    }
+    Persona.Biografia();
+    Persona.Persona('Nombre','Apellido','Bolivia',50);
+    Persona.Biografia();
+
+function Persona1(no,ap,pa,ed)
+{
+   
+            this.nombre=no,
+            this.apellido = ap,
+            this.pais = pa,
+            this.edad = ed
+            
+}
+
+function imprimir(o)
+    {
+        document.write('Nombre: '+o.nombre +'<br>');
+        document.write('Apellido: '+o.apellido +'<br>');
+        document.write('Pais: '+o.pais+'<br>');
+        document.write('Edad: '+o.edad+'<br>');
+    }
+    
+    // Crear objeto
+
+    var David= new Persona1('David','Lima','Bolivia',20);
+    var yo= new Persona1('Fabiola','Soliz','Bolivia',20);
+    
+    var otro= new Persona1();
+
+    imprimir(David);
+    David.edad =21;
+    imprimir(otro);
+    imprimir(yo);
+
+
+    //persona.Per('David','Lima','Bolivia',20);
+    
+    //persona.Biografia();
+
+    //var David = new Persona;
+
+    //David.Biografia();
+
+
+    </script>
+
+    <style>
+        body
+        {
+            font-size: 30px;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fechas</title>
+</head>
+<body>
+    <h1>Fechas</h1>
+
+    <script>
+
+        var fecha = new Date();
+        document.write(fecha + '<br>');
+
+        // Hora
+
+        /*document.write('Hora: '+fecha.getHours()+ '<br>');
+        document.write('Minutos: '+fecha.getMinutes()+ '<br>');
+        document.write('Segundos :'+ fecha.getSeconds()+ '<br>');*/
+
+        // Fechas
+
+        var dias = ['Dom', 'Lun', 'Martes', 'Mie', 'Jue','Vie','Sab']
+        var dia= dias[fecha.getDay()];
+        document.write('Dia: '+dia+ '<br>');
+
+        var meses=['Ene','Feb','Mar','Abr','May','Jun','Jul','Agosto','Sep']
+        var mes_num = fecha.getMonth()+1;
+        var mes_lit = meses[fecha.getMonth()];
+
+        var año = fecha.getFullYear();
+
+        var day = fecha.getDate();
+
+        document.write('mes: '+mes_num+ '<br>');
+        document.write('mes: '+mes_lit+ '<br>');
+        document.write('Año: '+año+ '<br>');
+
+        document.write('Hoy es : '+ fecha.getDate() + ' de '+ mes_lit+ ' del '+año);
+
+        document.write('<hr>'+day+' / '+mes_num +' / '+año +'<br>');
+
+    </script>
+
+    <style>
+
+        body{
+
+            background: skyblue;
+            font-size: 30px
+        }
+    </style>
+</body>
+</html>

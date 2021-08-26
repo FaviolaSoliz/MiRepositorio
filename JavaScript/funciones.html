@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <h1>Funciones</h1>
+    <script>
+
+        /* Las funciones son bloques de codigo que son utiles cuando
+           queremos reutilizar codigo
+           
+           * Para tener nuestro codigo ordenado
+           
+        function nombre( parametros )  */
+
+        var a = 10;
+        var b = 52;
+
+       /* var suma = a+b;
+
+        document.write('La suma es:  '+suma);*/
+
+        // definr la funcion
+        function Sumar( num1, num2)
+        {
+            var resultado = num1 + num2 ;
+
+            document.write('La suma es : ' +resultado +'<hr>');
+        }
+
+        // Llamar a la funcion
+
+        Sumar(a,b);
+        
+
+        function Sumar2( num1, num2)
+        {
+            var resultado = num1 + num2 ;
+
+           return resultado;
+        }
+
+        // Llamar a la funcion
+
+        var sum = Sumar2(10,10);
+
+        document.write('La suma es :'+ sum);
+        console.log(sum);
+
+        document.write('<hr>')
+
+        var Notas=[38,96,51,45,12,32,96,0,25,98];
+
+        var prom = Promedio(Notas);
+        var apro = Aprobados(Notas);
+        var rep = Reprobados(Notas);
+
+        document.write('El promedio es; '+ prom + '<br>');
+
+       document.write('Aprobados: '+apro + '<br>');
+
+       document.write('Reprobados: '+rep + '<br>');
+
+       document.write('<hr>')
+
+var Notas=[38,96,51,45,12,32,96,0,25,98,65,78,96,12,32];
+
+var prom1 = Promedio(Notas);
+var apro1 = Aprobados(Notas);
+var rep1 = Reprobados(Notas);
+
+document.write('El promedio es; '+ prom1 + '<br>');
+
+document.write('Aprobados: '+apro1 + '<br>');
+
+document.write('Reprobados: '+rep1 + '<br>');
+
+// fUNCIONES AUTOINVOCADAS
+
+        (function()
+        {
+            // Proceso
+            alert('Funcion autoinvocada');
+         }
+         ())
+
+
+
+
+    </script>
+
+<style>
+    body{
+        background: #85b6e7;
+        font-size:40px;
+    }
+</style>
+    
+</body>
+</html>

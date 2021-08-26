@@ -1,0 +1,28 @@
+{
+    "lugares" : [
+    {
+      "nombre": "Toro toro",
+      "ciudad": "Potosi",
+      "pais": "Bolivia",
+      "ubicacion": "Noreste de Potosi",
+      "historia":"dfghjkl",
+      "fecha de fundacion":"10/Nov",
+      "AtractivosTuristicos" : [
+        "",
+        "",
+        ""      
+      ],
+      "gastronomia" : [
+        "",
+        "",
+        ""      
+      ],
+      "festividades" : [
+        "",
+        "",
+        ""      
+      ]
+    
+    }
+  ]
+}
