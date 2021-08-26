@@ -12,6 +12,7 @@
             var superHeroes = request.response;
             populateHeader(superHeroes);
             showHeroes(superHeroes);
+            console.log(superHeroes);
         }
 
 		//Populating the header

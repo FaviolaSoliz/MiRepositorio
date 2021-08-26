@@ -78,13 +78,13 @@
             this.edad = ed;
         },
 
-       /* Per:function(no,ap,pa,ed)
+       Per:function(no,ap,pa,ed)
         {
             this.nombre=no;
             this.apellido = ap;
             this.pais = pa;
             this.edad = ed;
-        },*/
+        },
         Biografia:function()
         {
             document.write('Nombre: '+this.nombre +'<br>');
@@ -94,7 +94,9 @@
         } 
     }
     Persona.Biografia();
-    Persona.Persona('Nombre','Apellido','Bolivia',50);
+    Persona.Persona('Ariel','Maldonado','Bolivia',50);
+    Persona.Biografia();
+    Persona.Persona('Juan','Arias','Peru',30);
     Persona.Biografia();
 
 function Persona1(no,ap,pa,ed)

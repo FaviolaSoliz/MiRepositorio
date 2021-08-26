@@ -1,12 +1,11 @@
 {
     "towns": [
       {
-        "name": "Cochamba",
-        "photo": "cocha1.jpg",
-        "motto": "Ciudad Jardin",
-        "yearFounded": 1810,
-        "currentPopulation": 1136066,
-        "averageRainfall": 15.75,
+        "nombre": "Cochamba",
+        "foto": "cocha1.jpg",
+        "slogan": "Ciudad Jardin",
+        "fundacion": 1810,
+        "poblacion": 1136066,
         "events": [
           "15 de Febrero:Corso de Corsos",
           "15 de Agosto:Urkupiña",
@@ -15,16 +14,26 @@
       },
      
       {
-        "name": "Preston",
-        "photo": "preston.jpg",
-        "motto": "Home of Napoleon Dynamite.",
-        "yearFounded": 1866,
-        "currentPopulation": 5204,
-        "averageRainfall": 16.65,
+        "nombre": "Cochabamba",
+        "foto": "cocha1.jpg",
+        "slogan": "Ciudad Jardin",
+        "fundacion": 1810,
+        "poblacion": 1136066,
         "events": [
-          "March 29: Work Creek Revival",
-          "July 8-12: Napoleon Dynamite Festival",
-          "November 2-4: Freedom Days"
+          "15 de Febrero:Corso de Corsos",
+          "15 de Agosto:Urkupiña",
+          "14 de Septiembre:Aniversario de Cochabamba"
+        ]
+      },
+
+      {
+        "nombre": "La Paz",
+        "foto": "cocha1.jpg",
+        "slogan": "Ciudad Jardin",
+        "fundacion": 1812,
+        "poblacion": 2136066,
+        "eventos": [
+          "16 de Julio:Aniversario de Cochabamba"
         ]
       }
     ]

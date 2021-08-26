@@ -128,7 +128,7 @@ var h2 = document.querySelector('h2');
 var section = document.querySelector('article');
 
 /*To obtain the JSON*/
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var requestURL = 'https://faviolasoliz.github.io/MiRepositorio/ciudades.json';
 
 /*Create a request*/
 var request = new XMLHttpRequest();
@@ -146,13 +146,15 @@ function show(jsonObj) {
     var town = jsonObj['towns'];
     
    for (var i = 0; i<town.length; i++) {
-      if(town[i].name=='Preston')
+      if(town[i].name=='Cochamba')
       //||town[i].name=='Soda Springs'||town[i].name=='Fish Haven') 
         {
             var myArticle = document.createElement('article');
             var myList = document.createElement('ul');
 
             myList.textContent; 
+
+           // myList.appendChild('fABIOLA');
 
             var townEvents = town[i].events;
             for (var j = 0; j < townEvents.length; j++) {

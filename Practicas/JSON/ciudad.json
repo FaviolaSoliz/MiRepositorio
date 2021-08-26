@@ -1,0 +1,33 @@
+{
+    "Titulo":"Lugares Turisticos",
+    "pais": "Bolivia",
+    "ciudades":[
+        {
+        "nombre":"Cochabamba",
+        "fundacion":1810,
+        "lugares turisticos":[
+            
+                "Cristo de la concordia",
+                "La Angostura",
+                "Museo "
+        ]
+
+        },
+
+        {
+            "nombre":"La Paz",
+            "fundacion":1810,
+            "lugares turisticos":[
+                
+                    "Tiahuanaku",
+                    "Lago Titicaca",
+                    "La isla del sol"
+            ]
+            }
+            
+
+    ]
+
+
+
+}
