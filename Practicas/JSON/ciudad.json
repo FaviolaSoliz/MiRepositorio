@@ -5,7 +5,7 @@
         {
         "nombre":"Cochabamba",
         "fundacion":1810,
-        "lugares turisticos":[
+        "lugares_turisticos":[
             
                 "Cristo de la concordia",
                 "La Angostura",
@@ -17,13 +17,24 @@
         {
             "nombre":"La Paz",
             "fundacion":1810,
-            "lugares turisticos":[
+            "lugares_turisticos":[
                 
                     "Tiahuanaku",
                     "Lago Titicaca",
                     "La isla del sol"
             ]
-            }
+            },
+
+            {
+                "nombre":"Potosi",
+                "fundacion":1812,
+                "lugares_turisticos":[
+                    
+                        "Salar de uyuni",
+                        "Toro toro",
+                        "Casa de la moneda"
+                ]
+                }
             
 
     ]
